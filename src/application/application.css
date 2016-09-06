@@ -1,0 +1,71 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+#paneS{
+	-fx-background-color: #FF8C00;
+	-fx-background-size:cover;
+}
+
+#paneA{
+	-fx-background-color: #FF8C00;
+	-fx-background-size:cover;
+}
+
+#text{
+	-fx-font: 20px Copperplate;
+	-fx-fill: #FFFAFA; 
+	
+}
+
+.text-field{
+	-fx-text-box-border: transparent;
+}
+
+#addButton{
+	-fx-border-color: #FF8C00;
+}
+
+.button{
+	-fx-outer-border: transparent;
+	-fx-inner-border: transparent;
+	-fx-background-insets: 0,0,0;
+}
+
+.text-field:focused, .button:focused {
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+}
+
+/* list cells changed */
+
+.list-cell:odd{
+	-fx-background-color: white;
+}
+
+#cell:hover{
+	-fx-background-color: #FAEBD7;
+}
+
+#cell:selected{
+	-fx-background-color: #FFA07A;
+}
+
+#popup_vbox{
+	-fx-padding: 10 10 10 10;
+}
+
+#popup_hbox{
+	-fx-padding: 5 10 5 0;
+}
+
+#popup_text{
+	-fx-fill: #E68665;
+}
+
+
+
+
+
+
+
+
+
